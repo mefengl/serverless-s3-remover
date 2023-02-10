@@ -3,9 +3,11 @@ plugin for serverless to make buckets empty before remove
 
 # Fork
 
-origin: https://github.com/sinofseven/serverless-s3-remover
+origin: https://github.com/sinofseven/serverless-s3-remover @sinofseven
 
-fix `serverless.variables.populateObject` error: https://github.com/ssignal/serverless-s3-remover
+fix `serverless.variables.populateObject` error: https://github.com/ssignal/serverless-s3-remover @ssignal
+
+fix deprecation warning: https://github.com/sinofseven/serverless-s3-remover/pull/23 @sinofseven
 
 all credit goes to the original author and contributors
 
