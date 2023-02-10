@@ -1,10 +1,10 @@
 {
   "name": "@serverless-aws/serverless-s3-remover",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mefengl/serverless-s3-remover.git"
+    "url": "git+ssh://git@github.com/serverless-aws-plugin/serverless-s3-remover.git"
   },
   "author": "sinofseven <luciferous.development@gmail.com> (workspace)",
   "license": "MIT",
@@ -14,9 +14,9 @@
   },
   "description": "[![NPM](https://nodei.co/npm/serverless-s3-remover.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/serverless-s3-remover/) [![NPM](https://nodei.co/npm-dl/serverless-s3-remover.png?height=2)](https://nodei.co/npm/serverless-s3-remover/) # serverless-s3-remover plugin for serverless to make buckets empty before remove",
   "bugs": {
-    "url": "https://github.com/mefengl/serverless-s3-remover/issues"
+    "url": "https://github.com/serverless-aws-plugin/serverless-s3-remover/issues"
   },
-  "homepage": "https://github.com/mefengl/serverless-s3-remover#readme",
+  "homepage": "https://github.com/serverless-aws-plugin/serverless-s3-remover#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
