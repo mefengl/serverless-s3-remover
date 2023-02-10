@@ -1,18 +1,24 @@
-[![NPM](https://nodei.co/npm/serverless-s3-remover.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/serverless-s3-remover/)
-[![NPM](https://nodei.co/npm-dl/serverless-s3-remover.png?height=2)](https://nodei.co/npm/serverless-s3-remover/)
 # serverless-s3-remover
 plugin for serverless to make buckets empty before remove
+
+# Fork
+
+origin: https://github.com/sinofseven/serverless-s3-remover
+
+fix `serverless.variables.populateObject` error: https://github.com/ssignal/serverless-s3-remover
+
+all credit goes to the original author and contributors
 
 # Usage
 Run next command.
 ```bash
-$ npm install serverless-s3-remover
+$ npm install @serverless-aws/serverless-s3-remover
 ```
 
 Add to your serverless.yml
 ```yaml
 plugins:
-  - serverless-s3-remover
+  - "@serverless-aws/serverless-s3-remover"
 
 custom:
   remover:
